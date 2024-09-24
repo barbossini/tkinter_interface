@@ -5,6 +5,7 @@
 **/src**
 ├── analyze.py # Module d'analyse fonctionnelle 
 ├── configuration.py # Gestion des paramètres système et configurations 
+├── debug.py # Interface graphique d'initiation a tkinter
 ├── interface.py # Interface graphique et interactions utilisateur 
 ├── main.py # Point d'entrée logique pour exécuter les différents modes 
 ├── mode.py # Gestion des différents modes (analyse, validation, programmation) 
@@ -29,3 +30,7 @@ launch.py # Point d'entrée principal pour sélectionner le mode de fonctionneme
 - **`/test/`** : Tests unitaires pour l'interface, la validation, et la qualification.
 - **`launch.py`** : Point d'entrée pour choisir le mode de fonctionnement.
 - **`settings.py`** : Gestion des paramètres globaux.
+
+## Ressources
+
+- * https://python.doctor/page-tkinter-interface-graphique-python-tutoriel *
