@@ -9,6 +9,8 @@ def run(mode_choice):
         mode.validation_mode()
     elif mode_choice == "programmation":
         mode.programming_mode()
+    elif mode_choice == "debug":
+        mode.debug_mode()
     else:
         print("Mode inconnu. Veuillez réessayer.")
 
