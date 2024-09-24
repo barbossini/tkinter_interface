@@ -1,6 +1,6 @@
 # launch.py
 
-import main
+import src.main as main
 
 if __name__ == "__main__":
     print("Choisissez un mode de fonctionnement:")

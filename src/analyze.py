@@ -1,7 +1,7 @@
 # analyze.py
 
-import interface
-import peripherals
+import src.interface as interface
+import src.peripherals as peripherals
 
 def start_analysis():
     interface.display_message("Mode Analyse Fonctionnelle démarré.")

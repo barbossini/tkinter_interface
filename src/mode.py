@@ -1,7 +1,7 @@
 # mode.py
 
-import analyze
-import configuration
+import src.analyze as analyze
+import src.configuration as configuration
 
 def analyze_mode():
     analyze.start_analysis()

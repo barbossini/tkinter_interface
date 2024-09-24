@@ -1,6 +1,6 @@
 # main.py
 
-import mode
+import src.mode as mode
 
 def run(mode_choice):
     if mode_choice == "analyse":
